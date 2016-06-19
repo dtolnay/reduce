@@ -1,7 +1,7 @@
 iter.reduce(fn)
 ===============
 
-[![Build Status](https://api.travis-ci.org/dtolnay/reduce.svg?branch=master)](https://travis-ci.org/dtolnay/reduce)
+[![Build Status](https://api.travis-ci.org/dtolnay/reduce.svg)](https://travis-ci.org/dtolnay/reduce)
 [![Latest Version](https://img.shields.io/crates/v/reduce.svg)](https://crates.io/crates/reduce)
 
 This crate gives Iterators a `reduce` function that is similar to
