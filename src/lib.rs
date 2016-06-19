@@ -18,6 +18,6 @@ impl<T, I> Reduce<T> for I where I: Iterator<Item=T> {
         where Self: Sized,
               F: FnMut(T, T) -> T,
     {
-        self.nth(0).map(|first| self.fold(first, f))
+        self.next().map(|first| self.fold(first, f))
     }
 }
