@@ -37,7 +37,7 @@ following in `Cargo.toml`:
 
 ```toml
 [dependencies]
-reduce = "^0.1"
+reduce = "0.1"
 ```
 
 ## License
