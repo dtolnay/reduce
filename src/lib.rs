@@ -30,6 +30,13 @@ fn test_reduce_some() {
 }
 
 #[test]
+fn test_reduce_one() {
+    let v = vec![1usize];
+    let sum = v.into_iter().reduce(|a, b| a + b);
+    assert_eq!(Some(1), sum);
+}
+
+#[test]
 fn test_reduce_none() {
     let v = Vec::<usize>::new();
     let sum = v.into_iter().reduce(|a, b| a + b);
