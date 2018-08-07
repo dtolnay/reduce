@@ -7,3 +7,6 @@ description = "Fold an iterator without an initial value"
 repository = "https://github.com/dtolnay/reduce"
 documentation = "https://github.com/dtolnay/reduce"
 keywords = ["iterator", "fold"]
+
+[badges]
+travis-ci = { repository = "dtolnay/reduce" }
