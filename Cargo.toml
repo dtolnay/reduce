@@ -2,6 +2,7 @@
 name = "reduce"
 version = "0.1.1"
 authors = ["David Tolnay <dtolnay@gmail.com>"]
+edition = "2018"
 license = "MIT/Apache-2.0"
 description = "Fold an iterator without an initial value"
 repository = "https://github.com/dtolnay/reduce"
