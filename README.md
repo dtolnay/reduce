@@ -10,8 +10,8 @@ the iterator is empty and `Some(value)` otherwise. This matches the distinction
 between [`reduce`][scala-reduce] and [`fold`][scala-fold] in Scala.
 
 [std-fold]: https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.fold
-[scala-reduce]: http://www.scala-lang.org/api/current/index.html#scala.collection.Iterator@reduce[A1%3E:A](op:(A1,A1)=%3EA1):A1
-[scala-fold]: http://www.scala-lang.org/api/current/index.html#scala.collection.Iterator@fold[A1%3E:A](z:A1)(op:(A1,A1)=%3EA1):A1
+[scala-reduce]: https://www.scala-lang.org/api/current/scala/collection/Iterator.html#reduce[A1%3E:A](op:(A1,A1)=%3EA1):A1
+[scala-fold]: https://www.scala-lang.org/api/current/scala/collection/Iterator.html#fold[A1%3E:A](z:A1)(op:(A1,A1)=%3EA1):A1
 
 ```toml
 [dependencies]
