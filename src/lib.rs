@@ -1,3 +1,5 @@
+#![no_std]
+
 pub trait Reduce<T> {
     fn reduce<F>(self, f: F) -> Option<T>
     where
