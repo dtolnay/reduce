@@ -3,6 +3,7 @@ iter.reduce(fn)
 
 [![Build Status](https://api.travis-ci.org/dtolnay/reduce.svg)](https://travis-ci.org/dtolnay/reduce)
 [![Latest Version](https://img.shields.io/crates/v/reduce.svg)](https://crates.io/crates/reduce)
+[![Rust Documentation](https://img.shields.io/badge/api-rustdoc-blue.svg)](https://docs.rs/reduce/0.1/reduce/)
 
 This crate gives Iterators a `reduce` function that is similar to
 [`fold`][std-fold] but without an initial value. The function returns `None` if
