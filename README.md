@@ -1,7 +1,7 @@
 iter.reduce(fn)
 ===============
 
-[![Build Status](https://api.travis-ci.org/dtolnay/reduce.svg)](https://travis-ci.org/dtolnay/reduce)
+[![Build Status](https://img.shields.io/github/workflow/status/dtolnay/reduce/CI/master)](https://github.com/dtolnay/reduce/actions?query=branch%3Amaster)
 [![Latest Version](https://img.shields.io/crates/v/reduce.svg)](https://crates.io/crates/reduce)
 [![Rust Documentation](https://img.shields.io/badge/api-rustdoc-blue.svg)](https://docs.rs/reduce/0.1/reduce/)
 
