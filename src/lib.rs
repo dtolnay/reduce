@@ -34,7 +34,7 @@
 //! }
 //! ```
 
-#![doc(html_root_url = "https://docs.rs/reduce/0.1.2")]
+#![doc(html_root_url = "https://docs.rs/reduce/0.1.3")]
 #![no_std]
 
 pub trait Reduce<T> {
