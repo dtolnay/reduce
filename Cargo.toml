@@ -6,7 +6,7 @@ edition = "2018"
 license = "MIT OR Apache-2.0"
 description = "Fold an iterator without an initial value"
 repository = "https://github.com/dtolnay/reduce"
-documentation = "https://github.com/dtolnay/reduce"
+documentation = "https://docs.rs/reduce"
 keywords = ["iterator", "fold"]
 readme = "README.md"
 
