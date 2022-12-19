@@ -2,13 +2,13 @@
 name = "reduce"
 version = "0.1.4" # remember to update html_root_url
 authors = ["David Tolnay <dtolnay@gmail.com>"]
-edition = "2018"
-license = "MIT OR Apache-2.0"
 description = "Fold an iterator without an initial value"
-repository = "https://github.com/dtolnay/reduce"
 documentation = "https://docs.rs/reduce"
+edition = "2018"
 keywords = ["iterator", "fold"]
+license = "MIT OR Apache-2.0"
 readme = "README.md"
+repository = "https://github.com/dtolnay/reduce"
 
 [package.metadata.docs.rs]
 targets = ["x86_64-unknown-linux-gnu"]
